@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melco Bermudez | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<button id="topBtn" onclick="scrollToTop()">⬆ Top</button>
+
+<body>
+
+<header>
+    <h1>Melco Bermudez</h1>
+    <p>1st Year BSIT Student | Aspiring Web Developer</p>
+
+    <div class="profile">
+        <img src="https://i.pinimg.com/736x/6c/63/4b/6c634b9548b003c2ff2bdf8dc9a0e8f3.jpg" alt="Profile">
+    </div>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+            I am Melco Bermudez, a first-year BSIT student interested in web development
+            and application design.
+        </p>
+    </div>
+
+    <div id="skills" class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Basic Programming</li>
+            <li>Web Design</li>
+        </ul>
+    <div id="experience" class="card">
+        <h2>Experience</h2>
+        <ul>
+            <li>Basic networking</li>
+            <li>Basic Programming</li>
+        </ul>
+    <div id="education" class="card">
+        <h2>Experience</h2>
+        <ul>
+            <li>Basic networking</li>
+            <li>Basic Programming</li>
+        </ul>    
+      
+    </div>
+
+    <div id="projects" class="card">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>App Design</h3>
+                <p>Calculator</p>
+            </div>
+
+            <div class="project">
+                <h3>Web Developer Practice</h3>
+                <p>Responsive website projects.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Email: bermudezmelco@gmail.com</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Melco Bermudez</p>
+</footer>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
